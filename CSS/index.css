@@ -3,6 +3,7 @@
   --title-text-color: #000000;
   --accent-color: #18a0fb;
   --primary-white-color: #ffffff;
+  --primary-category-color: #757575;
 }
 
 body {
@@ -30,6 +31,7 @@ body {
 .link {
   color: var(--title-text-color);
 }
+
 .hero {
   text-align: center;
 }
@@ -70,5 +72,12 @@ footer {
 }
 
 .info {
-  color: var(--primary-white-color);
+  color: var(--primary-category-color);
+}
+
+.site-nav .link:hover {
+  color: tomato;
+}
+.site-nav .link:focus {
+  color: tomato;
 }
